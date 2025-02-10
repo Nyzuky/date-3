@@ -4,7 +4,7 @@ const displayText = document.querySelector('.text');
 
 // When the "Yes" button is clicked, change the text
 yesButton.addEventListener('click', function() {
-    displayText.innerHTML = 'Okay, Mahal na kita agad <3';
+    displayText.innerHTML = 'Thanks po, Bby Girl HEHE <3';
 });
 
 // When the "No" button is clicked, move it to a random position
@@ -18,7 +18,7 @@ noButton.addEventListener('click', function() {
     const randomY = Math.floor(Math.random() * (viewportHeight - noButton.offsetHeight));
 
     // Set the new random position of the "No" button
-    displayText.innerHTML = 'Try Again, Dili pwede ang No kay gwapo ra kayko <3'
+    displayText.innerHTML = 'Try Again, Dili pwede ang No Sorry :)'
     noButton.style.position = 'absolute';
     noButton.style.left = `${randomX}px`;
     noButton.style.top = `${randomY}px`;
