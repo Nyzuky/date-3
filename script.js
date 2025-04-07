@@ -4,7 +4,7 @@ const displayText = document.querySelector('.text');
 
 // When the "Yes" button is clicked, change the text
 yesButton.addEventListener('click', function() {
-    displayText.innerHTML = 'Thanks po, Bby Girl HEHE <3';
+    displayText.innerHTML = 'Thanks po hehe, I will treat you well Bby Girl <3';
 });
 
 // When the "No" button is clicked, move it to a random position
